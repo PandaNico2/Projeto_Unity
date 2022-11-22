@@ -19,7 +19,7 @@ public class LabirintoCode : MonoBehaviour
     void CriaMapa () {
         // -- Comando para ler do arquivo e salvar na matriz de inteiros --
         //meu arquivo é um csv, mas funciona com qualquer extensão de arquivo
-        string arquivo = File.ReadAllText( @"C:\WorkSpace\unity\CU\Dowlond\CuDeParede.txt" );
+        string arquivo = File.ReadAllText( @"C:\WorkSpace\unity\Projeto_unity\CU\Dowlond\CuDeParede.txt" );
         int[,] mapa = new int[41, 41];
         int i=0, j=0;
         
